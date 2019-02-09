@@ -1,0 +1,131 @@
+/*
+Website Name: SeniorTechSupport
+Web Developers: Matt Gu, Daniel Williams
+Date: 2/9/19
+*/
+
+/* Body */
+html, body {
+    background-color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+::selection {
+    background-color:#1e3799;
+    color:#fff;
+}
+/*###########################################################################################*/
+/* Headings and Paragraphs */
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+/*###########################################################################################*/
+/* Headers and Footers */
+header {
+    margin: 10em;
+}
+div.head-container {
+    width: 100%;
+    background-color: #0c2461;
+    color: #e58e26;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-bottom: 10em;
+}
+
+/*###########################################################################################*/
+/* Body Containers */
+div.jumbotron {
+    width: 75em;
+    background-color: #e58326;
+    padding: .5em 3em 3em 3em;
+    margin: 2.5em auto;
+    border-radius: .75em;
+}
+
+div.panel {
+    width: 80em;
+    padding: 1em 0em;
+    margin: 0 auto;
+    display: flex;
+    border-radius: .75em;
+}
+
+div.panel-left {
+    width: 20em;
+    float: left;
+    margin: 0em;
+    padding: .5em 1.5em 1.75em 1.5em;
+    border-radius: .75em;
+    background-color: #ddd;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+div.panel-mid {
+    width: 20em;
+    margin: 0 auto;
+    padding: .5em 1.5em 1.75em 1.5em;
+    border-radius: .75em;
+    background-color: #ddd;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+div.panel-right {
+    width: 20em;
+    float: right;
+    margin: 0em;
+    padding: .5em 1.5em 1.75em 1.5em;
+    border-radius: .75em;
+    background-color: #ddd;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+/*###########################################################################################*/
+/* Buttons */
+a:link {
+    text-decoration: none;
+    transition: 2s;
+}
+
+.btn-blue{
+    display: inline-block;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 800;
+    font-size: 1em;
+    text-align: center;
+    padding: .5em .75em;
+    bottom: 0;
+    background-color: #0c2461;
+    color: #e58e26;
+    border-radius: .25em;
+}
+
+.panel .btn-blue{
+    margin-top:1.5em;
+    justify-content: flex-end;
+}
+
+.btn-blue:hover,
+.btn-blue:active{
+    background-color: #e58e26;
+    color: #0c2461;
+    transition: 1s;
+}
