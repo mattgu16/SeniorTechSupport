@@ -8,6 +8,7 @@ Date: 2/9/19
 html, body {
     background-color:#fff;
     font-family: 'Roboto', sans-serif;
+    font-size: 110%;
 }
 ::selection {
     background-color:#1e3799;
@@ -48,15 +49,16 @@ div.head-container {
 /*###########################################################################################*/
 /* Body Containers */
 div.jumbotron {
-    width: 75em;
+    width: 60em;
     background-color: #e58326;
     padding: .5em 3em 3em 3em;
-    margin: 2.5em auto;
+    margin: .5em auto;
+    font-size: 1.1em;
     border-radius: .75em;
 }
 
 div.panel {
-    width: 80em;
+    width: 72.5em;
     padding: 1em 0em;
     margin: 0 auto;
     display: flex;
