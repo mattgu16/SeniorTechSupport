@@ -31,6 +31,10 @@ h3 {
     font-size: 1.5em;
     font-weight: 800;
 }
+h6 {
+    font-style: italic;
+    font-weight: normal;
+}
 /*###########################################################################################*/
 /* Headers and Footers */
 header {
@@ -44,6 +48,29 @@ div.head-container {
     left: 0;
     position: absolute;
     margin-bottom: 10em;
+}
+div.navbar-container {
+    width:100%;
+}
+
+.navbar-container ul {
+    list-style-type: none;
+    padding-bottom: 1em;
+} 
+
+.navbar-container li {
+    float:left;
+    display:inline;
+    padding: .1em 1em;
+}
+
+.navbar-container li a {
+    text-decoration: none;
+    padding: .1em .25em;
+    border: 1px solid;
+    border-radius: .2em;
+    color:#fff;
+    border-color: #fff;
 }
 
 /*###########################################################################################*/
@@ -62,7 +89,7 @@ div.panel {
     padding: 1em 0em;
     margin: 0 auto;
     display: flex;
-    border-radius: .75em;
+    border-radius: .75em
 }
 
 div.panel-left {
@@ -100,11 +127,18 @@ div.panel-right {
     display: flex;
 }
 
+.tutorial {
+    width: 75%;
+    margin: 5em auto;
+}
+
+.img {
+}
 /*###########################################################################################*/
 /* Buttons */
 a:link {
     text-decoration: none;
-    transition: 2s;
+    transition: 0s;
 }
 
 .btn-blue{
