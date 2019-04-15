@@ -10,6 +10,11 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 110%;
 }
+
+html.tutorial, body.tutorial {
+    background-color: #E0E0E0;
+}
+
 ::selection {
     background-color:#1e3799;
     color:#fff;
@@ -34,11 +39,12 @@ h3 {
 h6 {
     font-style: italic;
     font-weight: normal;
+    font-size:1em;
 }
 /*###########################################################################################*/
 /* Headers and Footers */
 header {
-    margin: 10em;
+    margin: 10.5em;
 }
 div.head-container {
     width: 100%;
@@ -47,7 +53,7 @@ div.head-container {
     top: 0;
     left: 0;
     position: absolute;
-    margin-bottom: 10em;
+    padding-bottom: .5em;
 }
 div.navbar-container {
     width:100%;
@@ -66,8 +72,8 @@ div.navbar-container {
 
 .navbar-container li a {
     text-decoration: none;
-    padding: .1em .25em;
-    border: 1px solid;
+    padding: .2em .5em;
+    border: 1.5px solid;
     border-radius: .2em;
     color:#fff;
     border-color: #fff;
@@ -127,12 +133,18 @@ div.panel-right {
     display: flex;
 }
 
-.tutorial {
+div.tutorial {
     width: 75%;
     margin: 5em auto;
+    background-color: #E0E0E0;
+    text-align: center;
 }
 
-.img {
+img {
+    margin: 2.5em auto;
+    width: 25em;
+    border-radius: 1em;
+    display:block;
 }
 /*###########################################################################################*/
 /* Buttons */
@@ -163,5 +175,25 @@ a:link {
 .btn-blue:active{
     background-color: #e58e26;
     color: #0c2461;
+    transition: 1s;
+}
+
+.btn-orange{
+    display: inline-block;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 800;
+    font-size: 1em;
+    text-align: center;
+    padding: .5em .75em;
+    bottom: 0;
+    background-color: #e58e26;
+    color: #0c2461;
+    border-radius: .25em;
+    margin: 0 auto;
+}
+.btn-orange:hover,
+.btn-orange:active{
+    background-color: #0c2461;
+    color: #e58e26;
     transition: 1s;
 }
